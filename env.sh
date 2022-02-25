@@ -4,7 +4,7 @@
 # getvar <name> | Read a value from info.plist
 getvar() {
     local v="$1"
-    /usr/libexec/PlistBuddy -c "Print :$v" ./src/info.plist
+    /usr/libexec/PlistBuddy -c "Print :$v" ./info.plist
 }
 
 export alfred_workflow_bundleid=$( getvar "bundleid" )
@@ -23,7 +23,5 @@ if [[ ! -f "$HOME/Library/Preferences/com.runningwithcrayons.Alfred.plist" ]]; t
 fi
 
 export cache_max_age=$( getvar "variables:cache_max_age" )
-export site_id=$( getvar "variables:site_id" )
-export site_name=$( getvar "variables:site_name" )
-export result_count=$( getvar "variables:result_count" )
-export ignore_meta_sites=$( getvar "variables:ignore_meta_sites" )
+export max_results=$( getvar "variables:max_results" )
+export api_url=$( getvar "variables:api_url" )

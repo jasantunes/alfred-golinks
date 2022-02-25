@@ -1,0 +1,9 @@
+{
+  "export_file": "Fruit.alfredworkflow",
+  "bundle_id": "com.yourname.fruit",
+  "readme": "README.txt",
+  "resources": [
+    "icon.png",
+    "src/*"
+  ]
+}

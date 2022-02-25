@@ -72,7 +72,7 @@ You can easily add your own searches for specific sites by adding your
 own Script Filter with the following Script:
 
 ```bash
-/usr/bin/python so.py search --site <siteid> "$1"
+/usr/bin/python go.py search --site <siteid> "$1"
 ```
 
 The easiest way to do this is to make and edit a copy of the built-in
