@@ -1,8 +1,8 @@
 
-StackExchange Search for Alfred
-===============================
+Go links search for Alfred
+==========================
 
-Search for answers on StackExchange sites from [Alfred 4+][alfred].
+Search for go links from [Alfred 4+][alfred].
 
 ![](demo.gif "")
 
@@ -29,7 +29,7 @@ Get StackExchange for Alfred from [GitHub releases][gh-releases].
 Usage
 -----
 
-The main action (keyword `stack`) shows a list of all StackExchange
+The main action (keyword `go/`) shows a list of all StackExchange
 sites. Choose one to search it.
 
 There is also a search for StackOverflow.com configured (keyword
@@ -72,7 +72,7 @@ You can easily add your own searches for specific sites by adding your
 own Script Filter with the following Script:
 
 ```bash
-/usr/bin/python go.py search --site <siteid> "$1"
+/usr/bin/python go.py "$1"
 ```
 
 The easiest way to do this is to make and edit a copy of the built-in
@@ -97,5 +97,7 @@ It is heavily based on [Alfred-Workflow][alfred-workflow], also
 [alfred]: https://www.alfredapp.com/
 [mit]: http://opensource.org/licenses/MIT
 [alfred-workflow]: http://www.deanishe.net/alfred-workflow/
-[gh-releases]: https://github.com/deanishe/alfred-stackoverflow/releases
-[demo]: https://raw.githubusercontent.com/deanishe/alfred-stackoverflow/master/demo.gif
+[gh-releases]: https://github.com/jasantunes/alfred-golinks/releases
+[demo]: https://raw.githubusercontent.com/jasantunes/alfred-golinks/master/demo.gif
+[icon]: https://www.subpng.com/png-oy8nqx/
+
