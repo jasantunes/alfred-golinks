@@ -21,7 +21,6 @@ import re
 import sys
 
 from workflow import Workflow3, web, ICON_WARNING
-from workflow.background import run_in_background, is_running
 
 USER_AGENT = 'Alfred-Golinks/{version} ({url})'
 
